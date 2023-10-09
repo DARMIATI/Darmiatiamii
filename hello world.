@@ -1,0 +1,14 @@
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		 String nama = "Darmiati";
+		 String alamat ="Campalagian";
+		 int umur =18;
+		double tinggi =1.53;
+	
+	System.out.println(nama);
+	System.out.println(alamat);
+	System.out.println(umur);
+	System.out.println(tinggi);
+	}
+}
