@@ -1,0 +1,10 @@
+
+public class Main {
+	public static void main(String[] args) {
+		String nama_depan, nama_belakang,nama_lengkap;
+		nama_depan = "Darmiati";
+		nama_belakang ="amii"; 
+nama_lengkap = nama_depan+" "+ nama_belakang;
+		System.out.println(nama_lengkap);
+	}
+}
