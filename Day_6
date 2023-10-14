@@ -1,0 +1,6 @@
+public class Main {
+	public static void main(String[] args) {
+		int umursaya= 18;
+		int umurdia= 22;
+		int umurkita =umursaya + umurdia;
+		System.out.println(umurkita);
