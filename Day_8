@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner input= new Scanner(System.in);
+		//OPERATOR ARITMATIKA//
+		//a.Penjumlahan(+)//
+		//b.Pengurangan(-)//
+		//c.Perkalian(*)//
+		//d.Pembagian(/)//
+		//e.modulus(sisa bagi)(%)//
+		
+		int nilaiawal, nilaiakhir,nilaikeduanya;
+		System.out.println("masukkan nilai awal=");
+		nilaiawal =input.nextInt();
+		System.out.println("masukkan nilai akhir=");
+	nilaiakhir=input.nextInt();
+   nilaikeduanya=nilaiawal+nilaiakhir;
+   	System.out.println(nilaiawal + "+" + nilaiakhir +"="+nilaikeduanya);
+		System.out.println(nilaikeduanya);
+		nilaikeduanya=nilaiawal-nilaiakhir;
+		System.out.println(nilaiakhir  + "-" + nilaiawal +"="+ nilaikeduanya);
+		nilaikeduanya=nilaiawal*nilaiakhir;
+		System.out.println(nilaiawal+ "x" + nilaiakhir +"="+ nilaikeduanya);
+		nilaikeduanya=nilaiawal/nilaiakhir;	System.out.println(nilaiakhir+ ":" +nilaiawal +"="+ nilaikeduanya);
+		System.out.println("Sisa bagi/ Modulus");
+		System.out.println(10%3);
+		
+	}
+}
