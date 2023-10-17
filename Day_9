@@ -1,0 +1,23 @@
+blic class Main {
+	public static void main(String[] args) {
+		//Operator Perbandingan
+		//=
+		//+=
+		///=
+		//*=
+		//%=
+	
+	//a.=		
+		int angka;
+		angka=20;
+		System.out.println(angka);
+	
+	//b.+=	
+		int nilaiawal,nilaiakhir;
+		nilaiawal=20;
+		nilaiakhir=10;
+		System.out.println( nilaiawal );
+		nilaiawal+= nilaiakhir;
+		System.out.println( nilaiawal );
+		
+		
