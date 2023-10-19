@@ -1,0 +1,26 @@
+  import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String nama;
+
+        
+        float pajakburuh = 0.05f, tunjanganburuh = 0.10f; 
+        float gajipokok, gajibersih, tunjangan, pajak;
+        
+  System.out.println("Menghitung gaji buruh");
+        System.out.print("masukkan nama buruh  :  ");
+        nama = input.next();
+        System.out.print("Gaji Pokok  : Rp.  "); 
+        gajipokok = input.nextFloat();
+        tunjangan = tunjanganburuh * gajipokok;
+        System.out.println("Tunjangan : Rp"+tunjangan);
+        pajak = pajakburuh * (gajipokok + tunjangan);
+        System.out.println("Pajaknya : Rp"+pajak);
+        gajibersih = gajipokok - pajak;
+
+        System.out.println("\nGaji bersih karyawan  :  Rp. " + gajibersih);
+    }
+	}
