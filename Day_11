@@ -1,0 +1,65 @@
+ 
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+		String nama,pekerjaan;
+		int gajipokok=0;
+		int totalgaji=0;
+		int tunjangan=10;
+		int pajak= 5;
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Menghitung gaji karyawan");
+		System.out.println("Universitas Sulawesi Barat");
+		System.out.println("========================");
+		
+		System.out.println("Masukkan nama: ");
+		nama= sc.nextLine();
+		System.out.println("Pekerjan:");
+		pekerjaan=sc.nextLine();	
+		int pilih= sc.nextInt();
+		if (pilih==1){
+		    gajipokok=1000000;
+		    tunjangan=100000;
+		}
+		else if (pilih==2){
+		    gajipokok=1500000;
+		    tunjangan=200000;
+		}
+		else if (pilih==3){
+		    gajipokok=2000000;
+		    tunjangan=300000;
+		    
+		}
+		else if(pilih==4){
+		    gajipokok=2500000;
+		    tunjangan=400000;
+		}
+		else if(pilih==5){
+		    gajipokok=3000000;
+		    tunjangan=500000;
+		}
+		else if (pilih==6){
+		    gajipokok=3500000;
+		    tunjangan=600000;
+		}
+		pajak=((gajipokok+tunjangan))/100;
+		totalgaji=((gajipokok+tunjangan)-pajak);
+		
+		System.out.println("========================");
+		System.out.println("Nama  = "+ nama);
+		System.out.println("Pekerjaan  ="+pekerjaan);
+		System.out.println("Gajipokok  ="+ gajipokok);
+	System.out.println("Tunjangan ="+tunjangan);	System.out.println(" Pajak  ="+pajak);
+	System.out.println("Total gaji yang diterima ="+totalgaji);
+		
+		
+		
+		
+		
+		    
+		   
+
+}
+}		
+		
